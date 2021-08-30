@@ -1,0 +1,292 @@
+import React from 'react'
+
+export const en_list = [
+
+    {"gov_code":28,"service_provider":"Bee Payment","number_of_transactions":125,"total_amount":18514.5,"total_revenue":60.23,"service_id":77,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":16,"service_provider":"Bee Payment","number_of_transactions":217,"total_amount":2700,"total_revenue":12.54,"service_id":60,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":14,"service_provider":"Efinance Payment","number_of_transactions":12,"total_amount":1422.45,"total_revenue":5.91,"service_id":19,"main_biller_id":4,"sector_id":1,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":29,"service_provider":"Bee Payment","number_of_transactions":1193,"total_amount":11620,"total_revenue":54.65,"service_id":59,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":14,"service_provider":"Bee Payment","number_of_transactions":406,"total_amount":1352,"total_revenue":6.09,"service_id":106,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":496,"total_amount":1484,"total_revenue":6.76,"service_id":106,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":334,"total_amount":4120,"total_revenue":19.67,"service_id":60,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":22,"service_provider":"Bee Payment","number_of_transactions":232,"total_amount":2000,"total_revenue":9.39,"service_id":231,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":14,"service_provider":"Bee Payment","number_of_transactions":164,"total_amount":4952,"total_revenue":28.61,"service_id":35,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":201,"total_amount":7398,"total_revenue":42.21,"service_id":35,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":32,"service_provider":"Bee Payment","number_of_transactions":17,"total_amount":90,"total_revenue":0.4,"service_id":231,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":11,"service_provider":"Bee Payment","number_of_transactions":23,"total_amount":280,"total_revenue":1.66,"service_id":66,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":23,"service_provider":"Bee Payment","number_of_transactions":797,"total_amount":8519,"total_revenue":40.62,"service_id":59,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":14,"service_provider":"Bee Payment","number_of_transactions":895,"total_amount":9808,"total_revenue":46.18,"service_id":216,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":26,"service_provider":"Bee Payment","number_of_transactions":507,"total_amount":23521.33,"total_revenue":107.21,"service_id":32,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":1,"service_provider":"Bee Payment","number_of_transactions":742,"total_amount":6544,"total_revenue":32.38,"service_id":216,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":14,"service_provider":"Bee Payment","number_of_transactions":1518,"total_amount":15261.75,"total_revenue":72.4,"service_id":214,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":546,"total_amount":18128.11,"total_revenue":88.89,"service_id":33,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":27,"service_provider":"Bee Payment","number_of_transactions":796,"total_amount":5359.25,"total_revenue":26.13,"service_id":224,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":16,"service_provider":"Bee Payment","number_of_transactions":60,"total_amount":158,"total_revenue":0.67,"service_id":226,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":394,"total_amount":4680,"total_revenue":23.4,"service_id":39,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":19,"service_provider":"Bee Payment","number_of_transactions":233,"total_amount":3850,"total_revenue":18.73,"service_id":43,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":930,"total_amount":53092.06,"total_revenue":265.46,"service_id":32,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":26,"service_provider":"Bee Payment","number_of_transactions":79,"total_amount":2161,"total_revenue":10.95,"service_id":35,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":357,"total_amount":826,"total_revenue":3.93,"service_id":226,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":137,"total_amount":360,"total_revenue":1.8,"service_id":226,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":602,"total_amount":5472,"total_revenue":26.46,"service_id":216,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":28,"service_provider":"Bee Payment","number_of_transactions":228,"total_amount":2256,"total_revenue":10.97,"service_id":216,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":22,"service_provider":"Efinance Payment","number_of_transactions":458,"total_amount":45633.06,"total_revenue":324.06,"service_id":9,"main_biller_id":7,"sector_id":1,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":19,"service_provider":"Bee Payment","number_of_transactions":114,"total_amount":1068,"total_revenue":5.21,"service_id":215,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":19,"service_provider":"Bee Payment","number_of_transactions":135,"total_amount":2000,"total_revenue":9.69,"service_id":60,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":32,"service_provider":"Bee Payment","number_of_transactions":112,"total_amount":1410,"total_revenue":6.79,"service_id":39,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":1,"service_provider":"Bee Payment","number_of_transactions":163,"total_amount":5577,"total_revenue":32.65,"service_id":35,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":1,"service_provider":"Bee Payment","number_of_transactions":151,"total_amount":1148,"total_revenue":5.72,"service_id":230,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":27,"service_provider":"Bee Payment","number_of_transactions":493,"total_amount":9035,"total_revenue":44.18,"service_id":43,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":198,"total_amount":28209,"total_revenue":95.15,"service_id":77,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":76,"total_amount":395,"total_revenue":1.94,"service_id":38,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":29,"service_provider":"Bee Payment","number_of_transactions":48,"total_amount":270,"total_revenue":1.32,"service_id":38,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":23,"service_provider":"Bee Payment","number_of_transactions":101,"total_amount":1755,"total_revenue":8.36,"service_id":40,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":14,"service_provider":"Bee Payment","number_of_transactions":68,"total_amount":1080,"total_revenue":5.14,"service_id":40,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":11,"service_provider":"Bee Payment","number_of_transactions":80,"total_amount":1120,"total_revenue":5.51,"service_id":43,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":14,"service_provider":"Bee Payment","number_of_transactions":178,"total_amount":1210,"total_revenue":5.79,"service_id":231,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":16,"service_provider":"Bee Payment","number_of_transactions":48,"total_amount":570,"total_revenue":3.17,"service_id":66,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+    ,{"gov_code":22,"service_provider":"Bee Payment","number_of_transactions":332,"total_amount":1398,"total_revenue":6.5,"service_id":56,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+
+
+]
+
+
+export const en2 = [
+
+    {"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":38,"total_amount":3346.1,"total_revenue":12.57,"service_id":51,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":18,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":120,"total_revenue":0.72,"service_id":72,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":14,"service_provider":"Bee Payment","number_of_transactions":158,"total_amount":1568,"total_revenue":7.58,"service_id":230,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":16,"total_amount":425,"total_revenue":2.08,"service_id":52,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":27,"service_provider":"Bee Payment","number_of_transactions":41,"total_amount":210,"total_revenue":1.17,"service_id":65,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":21,"service_provider":"Bee Payment","number_of_transactions":56,"total_amount":320,"total_revenue":1.57,"service_id":38,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":3,"service_provider":"Bee Payment","number_of_transactions":16,"total_amount":255,"total_revenue":1.28,"service_id":40,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":14,"service_provider":"Bee Payment","number_of_transactions":131,"total_amount":942,"total_revenue":4.51,"service_id":215,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":19,"service_provider":"Bee Payment","number_of_transactions":105,"total_amount":952,"total_revenue":4.53,"service_id":230,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":21,"service_provider":"Bee Payment","number_of_transactions":54,"total_amount":2700,"total_revenue":13.41,"service_id":63,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":22,"service_provider":"Bee Payment","number_of_transactions":85,"total_amount":256,"total_revenue":1.13,"service_id":106,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":105,"total_amount":1210,"total_revenue":7.26,"service_id":66,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":27,"service_provider":"Bee Payment","number_of_transactions":4,"total_amount":240,"total_revenue":1.31,"service_id":72,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":28,"service_provider":"Bee Payment","number_of_transactions":116,"total_amount":2100,"total_revenue":9.9,"service_id":61,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":21,"service_provider":"Bee Payment","number_of_transactions":34,"total_amount":950,"total_revenue":4.71,"service_id":52,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":36,"total_amount":180,"total_revenue":0.89,"service_id":58,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":29,"service_provider":"Bee Payment","number_of_transactions":91,"total_amount":1590,"total_revenue":7.79,"service_id":61,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":15,"service_provider":"Bee Payment","number_of_transactions":7,"total_amount":175,"total_revenue":0.66,"service_id":52,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":23,"service_provider":"Bee Payment","number_of_transactions":13,"total_amount":1300,"total_revenue":6.5,"service_id":41,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":18,"service_provider":"Bee Payment","number_of_transactions":4,"total_amount":1019.09,"total_revenue":1.4,"service_id":76,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":28,"service_provider":"Bee Payment","number_of_transactions":22,"total_amount":405,"total_revenue":2,"service_id":40,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":15,"service_provider":"Bee Payment","number_of_transactions":3,"total_amount":150,"total_revenue":0.66,"service_id":63,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":24,"service_provider":"Bee Payment","number_of_transactions":31,"total_amount":165,"total_revenue":0.83,"service_id":65,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":4,"service_provider":"Bee Payment","number_of_transactions":16,"total_amount":200,"total_revenue":1.18,"service_id":66,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":3,"service_provider":"Bee Payment","number_of_transactions":17,"total_amount":138,"total_revenue":0.69,"service_id":215,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":11,"service_provider":"Bee Payment","number_of_transactions":13,"total_amount":1300,"total_revenue":6.33,"service_id":41,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":54,"total_amount":870,"total_revenue":5.22,"service_id":67,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":22,"service_provider":"Bee Payment","number_of_transactions":28,"total_amount":174,"total_revenue":0.84,"service_id":215,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":27,"service_provider":"Bee Payment","number_of_transactions":16,"total_amount":11441.5,"total_revenue":5.48,"service_id":50,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":12,"service_provider":"Bee Payment","number_of_transactions":89,"total_amount":742,"total_revenue":3.59,"service_id":59,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":4,"service_provider":"Bee Payment","number_of_transactions":10,"total_amount":150,"total_revenue":0.87,"service_id":67,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":16,"total_amount":425,"total_revenue":1.99,"service_id":62,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":21,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":452.38,"total_revenue":0.7,"service_id":76,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":21,"service_provider":"Bee Payment","number_of_transactions":18,"total_amount":90,"total_revenue":0.44,"service_id":58,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":12,"service_provider":"Bee Payment","number_of_transactions":12,"total_amount":60,"total_revenue":0.3,"service_id":231,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":24,"service_provider":"Bee Payment","number_of_transactions":3,"total_amount":943.95,"total_revenue":1.05,"service_id":48,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":14,"service_provider":"Bee Payment","number_of_transactions":33,"total_amount":510,"total_revenue":2.9,"service_id":67,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":24,"service_provider":"Bee Payment","number_of_transactions":30,"total_amount":210,"total_revenue":0.9,"service_id":230,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":16,"service_provider":"Bee Payment","number_of_transactions":10,"total_amount":500,"total_revenue":2.06,"service_id":53,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":14,"service_provider":"Efinance Payment","number_of_transactions":11,"total_amount":803.24,"total_revenue":4.62,"service_id":18,"main_biller_id":1,"sector_id":1,"transaction_date":"14-OCT-20"}
+,{"gov_code":32,"service_provider":"Bee Payment","number_of_transactions":17,"total_amount":330,"total_revenue":1.6,"service_id":61,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":26,"service_provider":"Bee Payment","number_of_transactions":36,"total_amount":180,"total_revenue":0.84,"service_id":58,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":26,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":120,"total_revenue":0.72,"service_id":72,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":14,"service_provider":"Bee Payment","number_of_transactions":12,"total_amount":2256,"total_revenue":4.08,"service_id":50,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":14,"service_provider":"Bee Payment","number_of_transactions":9,"total_amount":855.76,"total_revenue":2.6,"service_id":117,"main_biller_id":30,"sector_id":10,"transaction_date":"14-OCT-20"}
+,{"gov_code":15,"service_provider":"Bee Payment","number_of_transactions":5,"total_amount":150,"total_revenue":0.71,"service_id":69,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":12,"service_provider":"Efinance Payment","number_of_transactions":3,"total_amount":251.26,"total_revenue":2.49,"service_id":15,"main_biller_id":9,"sector_id":1,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Efinance Payment","number_of_transactions":8,"total_amount":1323.9,"total_revenue":4.39,"service_id":19,"main_biller_id":4,"sector_id":1,"transaction_date":"14-OCT-20"}
+,{"gov_code":24,"service_provider":"Bee Payment","number_of_transactions":4,"total_amount":400,"total_revenue":2,"service_id":41,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":23,"service_provider":"Efinance Payment","number_of_transactions":4,"total_amount":1474.3,"total_revenue":6.35,"service_id":146,"main_biller_id":40,"sector_id":8,"transaction_date":"14-OCT-20"}
+,{"gov_code":28,"service_provider":"Bee Payment","number_of_transactions":10,"total_amount":807.56,"total_revenue":3.38,"service_id":51,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":3,"service_provider":"Bee Payment","number_of_transactions":10,"total_amount":1000,"total_revenue":5,"service_id":41,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":23,"service_provider":"Bee Payment","number_of_transactions":3,"total_amount":75,"total_revenue":0.45,"service_id":68,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":16,"service_provider":"Damen Payment","number_of_transactions":1,"total_amount":20,"total_revenue":0.6,"service_id":204,"main_biller_id":35,"sector_id":6,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":5,"total_amount":500,"total_revenue":2.5,"service_id":64,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":12,"service_provider":"Bee Payment","number_of_transactions":8,"total_amount":81,"total_revenue":0.41,"service_id":225,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":21,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":120,"total_revenue":0.72,"service_id":72,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":18,"service_provider":"Bee Payment","number_of_transactions":4,"total_amount":200,"total_revenue":1.2,"service_id":71,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":7,"total_amount":350,"total_revenue":2.1,"service_id":71,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":16,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":100,"total_revenue":0.5,"service_id":71,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":4,"total_amount":100,"total_revenue":0.6,"service_id":68,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":60,"total_revenue":0.36,"service_id":72,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":65.39,"total_revenue":0.35,"service_id":48,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":150,"total_revenue":0.9,"service_id":73,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":1,"service_provider":"Efinance Payment","number_of_transactions":1,"total_amount":98.42,"total_revenue":0.83,"service_id":9,"main_biller_id":7,"sector_id":1,"transaction_date":"14-OCT-20"}
+,{"gov_code":18,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":75,"total_revenue":0.45,"service_id":73,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":4,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":30,"total_revenue":0.15,"service_id":228,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":3,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":9,"total_revenue":0.05,"service_id":225,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":19,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":100,"total_revenue":0.5,"service_id":64,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":11,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":266.92,"total_revenue":0.7,"service_id":79,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":22,"service_provider":"Efinance Payment","number_of_transactions":1,"total_amount":25.7,"total_revenue":1.59,"service_id":146,"main_biller_id":40,"sector_id":8,"transaction_date":"14-OCT-20"}
+,{"gov_code":15,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":658.5,"total_revenue":0.35,"service_id":48,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":24,"service_provider":"Damen Payment","number_of_transactions":1,"total_amount":10,"total_revenue":0.09,"service_id":49,"main_biller_id":22,"sector_id":6,"transaction_date":"14-OCT-20"}
+,{"gov_code":28,"service_provider":"Bee Payment","number_of_transactions":322,"total_amount":2397,"total_revenue":11.75,"service_id":214,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":21,"service_provider":"Bee Payment","number_of_transactions":723,"total_amount":37705.17,"total_revenue":185.89,"service_id":32,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":29,"service_provider":"Bee Payment","number_of_transactions":678,"total_amount":31273.76,"total_revenue":151.21,"service_id":32,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":27,"service_provider":"Bee Payment","number_of_transactions":2306,"total_amount":18173,"total_revenue":87.78,"service_id":214,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":32,"service_provider":"Efinance Payment","number_of_transactions":406,"total_amount":44939.82,"total_revenue":292.85,"service_id":9,"main_biller_id":7,"sector_id":1,"transaction_date":"14-OCT-20"}
+,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":634,"total_amount":7900,"total_revenue":38.08,"service_id":39,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":28,"service_provider":"Bee Payment","number_of_transactions":1342,"total_amount":18510,"total_revenue":88.37,"service_id":60,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":47,"total_amount":885,"total_revenue":4.08,"service_id":40,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":28,"service_provider":"Bee Payment","number_of_transactions":47,"total_amount":122,"total_revenue":0.6,"service_id":56,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":18,"service_provider":"Bee Payment","number_of_transactions":565,"total_amount":20492.68,"total_revenue":96.73,"service_id":34,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":12,"service_provider":"Bee Payment","number_of_transactions":414,"total_amount":4356.25,"total_revenue":20.88,"service_id":224,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":1238,"total_amount":10697.25,"total_revenue":50.4,"service_id":214,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":32,"service_provider":"Bee Payment","number_of_transactions":200,"total_amount":8121.13,"total_revenue":38.21,"service_id":32,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":32,"service_provider":"Bee Payment","number_of_transactions":268,"total_amount":2429,"total_revenue":11.19,"service_id":59,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":24,"service_provider":"Bee Payment","number_of_transactions":626,"total_amount":8140,"total_revenue":37.39,"service_id":60,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":26,"service_provider":"Bee Payment","number_of_transactions":840,"total_amount":7847,"total_revenue":35.4,"service_id":59,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":24,"service_provider":"Bee Payment","number_of_transactions":159,"total_amount":528,"total_revenue":2.44,"service_id":56,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":1,"service_provider":"Bee Payment","number_of_transactions":696,"total_amount":29236.79,"total_revenue":145.62,"service_id":34,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":28,"service_provider":"Bee Payment","number_of_transactions":322,"total_amount":1857.25,"total_revenue":9.03,"service_id":224,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":18,"service_provider":"Bee Payment","number_of_transactions":829,"total_amount":30021.42,"total_revenue":145.4,"service_id":33,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":665,"total_amount":12175,"total_revenue":58.77,"service_id":43,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":18,"service_provider":"Bee Payment","number_of_transactions":673,"total_amount":8560,"total_revenue":40.09,"service_id":60,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":15,"service_provider":"Bee Payment","number_of_transactions":378,"total_amount":5520,"total_revenue":23.61,"service_id":39,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":21,"service_provider":"Bee Payment","number_of_transactions":232,"total_amount":9262.11,"total_revenue":45.86,"service_id":33,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":19,"service_provider":"Bee Payment","number_of_transactions":196,"total_amount":2052.75,"total_revenue":9.93,"service_id":227,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":446,"total_amount":14398.67,"total_revenue":68.2,"service_id":33,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":26,"service_provider":"Bee Payment","number_of_transactions":47,"total_amount":825,"total_revenue":3.6,"service_id":40,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":29,"service_provider":"Bee Payment","number_of_transactions":784,"total_amount":25884.51,"total_revenue":123.03,"service_id":34,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":22,"service_provider":"Bee Payment","number_of_transactions":295,"total_amount":984,"total_revenue":4.59,"service_id":226,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":29,"service_provider":"Bee Payment","number_of_transactions":283,"total_amount":1606.5,"total_revenue":7.8,"service_id":224,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":29,"service_provider":"Efinance Payment","number_of_transactions":337,"total_amount":27324.46,"total_revenue":249.75,"service_id":12,"main_biller_id":6,"sector_id":1,"transaction_date":"14-OCT-20"}
+,{"gov_code":19,"service_provider":"Bee Payment","number_of_transactions":573,"total_amount":30507.1,"total_revenue":148,"service_id":32,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":12,"service_provider":"Bee Payment","number_of_transactions":513,"total_amount":6670,"total_revenue":32,"service_id":39,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":11,"service_provider":"Bee Payment","number_of_transactions":682,"total_amount":8120,"total_revenue":39.05,"service_id":216,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":32,"service_provider":"Bee Payment","number_of_transactions":397,"total_amount":2261,"total_revenue":10.78,"service_id":224,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":23,"service_provider":"Bee Payment","number_of_transactions":17,"total_amount":90,"total_revenue":0.54,"service_id":65,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":1,"service_provider":"Bee Payment","number_of_transactions":855,"total_amount":46629.54,"total_revenue":230.05,"service_id":32,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":11,"service_provider":"Bee Payment","number_of_transactions":246,"total_amount":4575,"total_revenue":21.88,"service_id":40,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":19,"service_provider":"Bee Payment","number_of_transactions":168,"total_amount":1939,"total_revenue":9.4,"service_id":59,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":16,"service_provider":"Bee Payment","number_of_transactions":282,"total_amount":4050,"total_revenue":17.38,"service_id":39,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":285,"total_amount":9755,"total_revenue":58.53,"service_id":35,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":16,"service_provider":"Bee Payment","number_of_transactions":24,"total_amount":120,"total_revenue":0.62,"service_id":65,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":4,"service_provider":"Bee Payment","number_of_transactions":108,"total_amount":903,"total_revenue":4.48,"service_id":230,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":15,"service_provider":"Efinance Payment","number_of_transactions":1248,"total_amount":83457.72,"total_revenue":565.15,"service_id":14,"main_biller_id":3,"sector_id":1,"transaction_date":"14-OCT-20"}
+,{"gov_code":12,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":422.05,"total_revenue":0.7,"service_id":76,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":16,"service_provider":"Bee Payment","number_of_transactions":755,"total_amount":33494.97,"total_revenue":150.61,"service_id":32,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":115,"total_amount":3227,"total_revenue":18.45,"service_id":35,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":12,"service_provider":"Bee Payment","number_of_transactions":18,"total_amount":90,"total_revenue":0.45,"service_id":58,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":27,"service_provider":"Bee Payment","number_of_transactions":104,"total_amount":525,"total_revenue":2.53,"service_id":38,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":26,"service_provider":"Bee Payment","number_of_transactions":259,"total_amount":642,"total_revenue":2.69,"service_id":226,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":39,"total_amount":210,"total_revenue":1.01,"service_id":231,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":35,"total_amount":3092,"total_revenue":16.8,"service_id":81,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":11,"service_provider":"Bee Payment","number_of_transactions":167,"total_amount":5166.59,"total_revenue":25.23,"service_id":33,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":4,"service_provider":"Bee Payment","number_of_transactions":118,"total_amount":1320,"total_revenue":6.53,"service_id":39,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":11,"service_provider":"Bee Payment","number_of_transactions":122,"total_amount":1470,"total_revenue":7.18,"service_id":60,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":23,"service_provider":"Bee Payment","number_of_transactions":149,"total_amount":22035.5,"total_revenue":71.53,"service_id":77,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":268,"total_amount":1827.5,"total_revenue":8.76,"service_id":227,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":23,"service_provider":"Bee Payment","number_of_transactions":12,"total_amount":300,"total_revenue":1.5,"service_id":52,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":19,"service_provider":"Bee Payment","number_of_transactions":5,"total_amount":414.25,"total_revenue":2.5,"service_id":81,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":65,"total_amount":760,"total_revenue":4.35,"service_id":66,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":32,"total_amount":825,"total_revenue":4.13,"service_id":52,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":12,"service_provider":"Bee Payment","number_of_transactions":45,"total_amount":270,"total_revenue":1.32,"service_id":38,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":15,"service_provider":"Bee Payment","number_of_transactions":11,"total_amount":2344,"total_revenue":3.24,"service_id":50,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":1,"service_provider":"Bee Payment","number_of_transactions":105,"total_amount":5250,"total_revenue":26.16,"service_id":53,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":23,"service_provider":"Bee Payment","number_of_transactions":166,"total_amount":1110,"total_revenue":5.48,"service_id":215,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":93,"total_amount":1650,"total_revenue":8.07,"service_id":40,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":24,"service_provider":"Bee Payment","number_of_transactions":231,"total_amount":3475,"total_revenue":15.65,"service_id":43,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":29,"service_provider":"Bee Payment","number_of_transactions":22,"total_amount":1100,"total_revenue":5.41,"service_id":53,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":21,"service_provider":"Bee Payment","number_of_transactions":11,"total_amount":1088,"total_revenue":5.5,"service_id":81,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":32,"service_provider":"Bee Payment","number_of_transactions":10,"total_amount":165,"total_revenue":0.8,"service_id":40,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":53,"total_amount":2650,"total_revenue":13.25,"service_id":53,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":30,"total_amount":3000,"total_revenue":15,"service_id":41,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":4,"service_provider":"Bee Payment","number_of_transactions":52,"total_amount":136,"total_revenue":0.68,"service_id":56,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":3,"service_provider":"Bee Payment","number_of_transactions":86,"total_amount":2767,"total_revenue":16.6,"service_id":35,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":8,"total_amount":2715,"total_revenue":2.8,"service_id":50,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":23,"service_provider":"Bee Payment","number_of_transactions":151,"total_amount":1005,"total_revenue":4.61,"service_id":231,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":39,"total_amount":200,"total_revenue":1.15,"service_id":65,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":9,"total_amount":900,"total_revenue":4.5,"service_id":64,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":55,"total_amount":280,"total_revenue":1.33,"service_id":58,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":1,"service_provider":"Bee Payment","number_of_transactions":15,"total_amount":1623.75,"total_revenue":7.5,"service_id":81,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":26,"service_provider":"Bee Payment","number_of_transactions":14,"total_amount":700,"total_revenue":3.15,"service_id":63,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":96,"total_amount":642,"total_revenue":3.21,"service_id":215,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":166,"total_amount":1005,"total_revenue":4.77,"service_id":231,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":14,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":200,"total_revenue":1,"service_id":54,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":1,"service_provider":"Bee Payment","number_of_transactions":70,"total_amount":7970.78,"total_revenue":23.89,"service_id":51,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":17,"total_amount":850,"total_revenue":4.25,"service_id":53,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":27,"service_provider":"Bee Payment","number_of_transactions":4,"total_amount":600,"total_revenue":3.6,"service_id":75,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":18,"service_provider":"Bee Payment","number_of_transactions":3,"total_amount":456.42,"total_revenue":0.9,"service_id":78,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":19,"service_provider":"Bee Payment","number_of_transactions":18,"total_amount":900,"total_revenue":4.5,"service_id":53,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":13,"total_amount":3821,"total_revenue":3.94,"service_id":50,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":7,"total_amount":1842,"total_revenue":2.45,"service_id":50,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":33,"total_amount":378,"total_revenue":1.8,"service_id":225,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":27,"service_provider":"Bee Payment","number_of_transactions":7,"total_amount":350,"total_revenue":2.1,"service_id":71,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":15,"service_provider":"Bee Payment","number_of_transactions":16,"total_amount":85,"total_revenue":0.42,"service_id":65,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":1,"service_provider":"Efinance Payment","number_of_transactions":9,"total_amount":313.87,"total_revenue":10.54,"service_id":211,"main_biller_id":10,"sector_id":2,"transaction_date":"14-OCT-20"}
+,{"gov_code":21,"service_provider":"Bee Payment","number_of_transactions":49,"total_amount":1300,"total_revenue":6.41,"service_id":62,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":37,"total_amount":1850,"total_revenue":8.73,"service_id":53,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":27,"service_provider":"Bee Payment","number_of_transactions":66,"total_amount":3300,"total_revenue":16.33,"service_id":53,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":9,"total_amount":1835.05,"total_revenue":2.7,"service_id":78,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":10,"total_amount":1380.5,"total_revenue":3.38,"service_id":79,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":264.83,"total_revenue":0.6,"service_id":78,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":21,"service_provider":"Bee Payment","number_of_transactions":9,"total_amount":1625.61,"total_revenue":2.7,"service_id":78,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":24,"service_provider":"Bee Payment","number_of_transactions":31,"total_amount":160,"total_revenue":0.77,"service_id":38,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":87,"total_amount":552,"total_revenue":2.7,"service_id":215,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":32,"service_provider":"Bee Payment","number_of_transactions":60,"total_amount":8600,"total_revenue":27.2,"service_id":77,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":6,"total_amount":300,"total_revenue":1.41,"service_id":63,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":12,"service_provider":"Bee Payment","number_of_transactions":38,"total_amount":88,"total_revenue":0.42,"service_id":226,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":24,"service_provider":"Bee Payment","number_of_transactions":16,"total_amount":1424,"total_revenue":7.13,"service_id":81,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":1,"service_provider":"Bee Payment","number_of_transactions":28,"total_amount":2800,"total_revenue":14,"service_id":64,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":28,"service_provider":"Bee Payment","number_of_transactions":16,"total_amount":800,"total_revenue":3.91,"service_id":63,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":21,"service_provider":"Efinance Payment","number_of_transactions":2,"total_amount":49.56,"total_revenue":1.07,"service_id":9,"main_biller_id":7,"sector_id":1,"transaction_date":"14-OCT-20"}
+,{"gov_code":18,"service_provider":"Efinance Payment","number_of_transactions":11,"total_amount":761.64,"total_revenue":7.07,"service_id":14,"main_biller_id":3,"sector_id":1,"transaction_date":"14-OCT-20"}
+,{"gov_code":12,"service_provider":"Bee Payment","number_of_transactions":11,"total_amount":375,"total_revenue":1.88,"service_id":62,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":21,"service_provider":"Bee Payment","number_of_transactions":8,"total_amount":200,"total_revenue":1.2,"service_id":68,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":28,"service_provider":"Bee Payment","number_of_transactions":24,"total_amount":216,"total_revenue":1.07,"service_id":215,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":27,"service_provider":"Bee Payment","number_of_transactions":9,"total_amount":225,"total_revenue":1.25,"service_id":68,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":27,"service_provider":"Bee Payment","number_of_transactions":4,"total_amount":160,"total_revenue":0.96,"service_id":70,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":22,"service_provider":"Bee Payment","number_of_transactions":23,"total_amount":1150,"total_revenue":5.49,"service_id":53,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":1,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":200,"total_revenue":0.65,"service_id":54,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":99,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":7,"total_revenue":0.04,"service_id":59,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":4,"service_provider":"Bee Payment","number_of_transactions":13,"total_amount":210,"total_revenue":1.05,"service_id":61,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":27,"service_provider":"Bee Payment","number_of_transactions":7,"total_amount":1085.04,"total_revenue":2.45,"service_id":79,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":537.2,"total_revenue":0.7,"service_id":76,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":7,"total_amount":700,"total_revenue":3.99,"service_id":74,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":26,"service_provider":"Bee Payment","number_of_transactions":16,"total_amount":450,"total_revenue":1.94,"service_id":62,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":23,"service_provider":"Bee Payment","number_of_transactions":8,"total_amount":3348,"total_revenue":2.8,"service_id":50,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Bee Payment","number_of_transactions":23,"total_amount":450,"total_revenue":2.07,"service_id":61,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":29,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":170.01,"total_revenue":0.7,"service_id":48,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":28,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":60,"total_revenue":0.36,"service_id":69,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":22,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":231.14,"total_revenue":0.7,"service_id":48,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":11,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":401.3,"total_revenue":0.6,"service_id":78,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":24,"service_provider":"Bee Payment","number_of_transactions":3,"total_amount":180,"total_revenue":1.08,"service_id":72,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":32,"service_provider":"Bee Payment","number_of_transactions":7,"total_amount":350,"total_revenue":1.58,"service_id":63,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":23,"service_provider":"Bee Payment","number_of_transactions":6,"total_amount":180,"total_revenue":1.02,"service_id":69,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":26,"service_provider":"Bee Payment","number_of_transactions":8,"total_amount":1079.94,"total_revenue":2.43,"service_id":79,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":4,"service_provider":"Bee Payment","number_of_transactions":10,"total_amount":1000,"total_revenue":5,"service_id":41,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":32,"service_provider":"Bee Payment","number_of_transactions":4,"total_amount":120,"total_revenue":0.66,"service_id":69,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":4,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":86.5,"total_revenue":0.3,"service_id":78,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":23,"service_provider":"Bee Payment","number_of_transactions":7,"total_amount":673.16,"total_revenue":2.33,"service_id":51,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":3,"service_provider":"Bee Payment","number_of_transactions":3,"total_amount":331.75,"total_revenue":1.5,"service_id":81,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":12,"service_provider":"Efinance Payment","number_of_transactions":1,"total_amount":205.6,"total_revenue":1.2,"service_id":20,"main_biller_id":3,"sector_id":1,"transaction_date":"14-OCT-20"}
+,{"gov_code":17,"service_provider":"Efinance Payment","number_of_transactions":3,"total_amount":136.42,"total_revenue":0.72,"service_id":17,"main_biller_id":2,"sector_id":1,"transaction_date":"14-OCT-20"}
+,{"gov_code":18,"service_provider":"Bee Payment","number_of_transactions":3,"total_amount":600,"total_revenue":3,"service_id":54,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":28,"service_provider":"Bee Payment","number_of_transactions":3,"total_amount":537,"total_revenue":1.05,"service_id":50,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":4,"service_provider":"Bee Payment","number_of_transactions":5,"total_amount":250,"total_revenue":1.25,"service_id":63,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":26,"service_provider":"Bee Payment","number_of_transactions":3,"total_amount":300,"total_revenue":1.5,"service_id":41,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":11,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":60,"total_revenue":0.23,"service_id":72,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":27,"service_provider":"Efinance Payment","number_of_transactions":3,"total_amount":2302.8,"total_revenue":12.99,"service_id":3,"main_biller_id":11,"sector_id":3,"transaction_date":"14-OCT-20"}
+,{"gov_code":12,"service_provider":"Damen Payment","number_of_transactions":1,"total_amount":20,"total_revenue":4,"service_id":199,"main_biller_id":46,"sector_id":6,"transaction_date":"14-OCT-20"}
+,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":2,"total_amount":200,"total_revenue":1.2,"service_id":74,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":200,"total_revenue":1,"service_id":54,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":200,"total_revenue":1,"service_id":54,"main_biller_id":13,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":23,"service_provider":"Efinance Payment","number_of_transactions":1,"total_amount":1151.4,"total_revenue":6.53,"service_id":3,"main_biller_id":11,"sector_id":3,"transaction_date":"14-OCT-20"}
+,{"gov_code":11,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":50,"total_revenue":0.3,"service_id":71,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":25,"service_provider":"Bee Payment","number_of_transactions":1,"total_amount":25,"total_revenue":0.15,"service_id":68,"main_biller_id":16,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":499,"total_amount":4641,"total_revenue":23.21,"service_id":59,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":19,"service_provider":"Bee Payment","number_of_transactions":1155,"total_amount":13642.5,"total_revenue":66.44,"service_id":224,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":1,"service_provider":"Bee Payment","number_of_transactions":1119,"total_amount":7620.25,"total_revenue":37.83,"service_id":224,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":14,"service_provider":"Bee Payment","number_of_transactions":906,"total_amount":10840,"total_revenue":51.58,"service_id":60,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":13,"service_provider":"Bee Payment","number_of_transactions":1185,"total_amount":12006.25,"total_revenue":58.78,"service_id":224,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":2,"service_provider":"Bee Payment","number_of_transactions":3904,"total_amount":52678.75,"total_revenue":263.39,"service_id":224,"main_biller_id":14,"sector_id":4,"transaction_date":"14-OCT-20"}
+,{"gov_code":1,"service_provider":"Bee Payment","number_of_transactions":1853,"total_amount":23240,"total_revenue":115.4,"service_id":60,"main_biller_id":15,"sector_id":4,"transaction_date":"14-OCT-20"}
+
+]
